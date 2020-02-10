@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\max53\\practice\\mail_sender'],
+             pathex=['C:\\Users\\max53\\practice\\mail_sender(for_seoultech_users)'],
              binaries=[],
              datas=[],
              hiddenimports=[],

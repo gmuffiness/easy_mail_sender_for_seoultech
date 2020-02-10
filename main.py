@@ -12,14 +12,15 @@ subject_name = values[3]
 name = values[4]
 school_year = values[5]
 school_num = values[6]
+major = values[7]
 
 f.close()
 
-
+# 전공과목만 해당함을 전제로 한 프로그램. 교양은 증설의 가능이 없기 때문에 대상으로 삼지 않았음. 오직 전공과목을 대상으로 한 메세지 구성.
 
 data1 = "교수님 안녕하십니까.\n"
-data2 = "산업정보시스템전공 {}학년에 재학중인 {}학번 {}입니다.\n\n".format(school_year,school_num,name)
-data3 = "학교에 입학할 때 커리큘럼을 보며 {} 과목이 꼭 수강하고 싶었던 과목이었지만 수강신청을 성공하지 못해버렸습니다.\n\n".format(subject_name)
+data2 = "{} {}학년에 재학중인 {}학번 {}입니다.\n\n".format(major,school_year,school_num,name)
+data3 = "본 학교에 입학할 때 전공 커리큘럼을 보며 {} 과목이 꼭 수강하고 싶었던 과목이었지만 수강신청을 성공하지 못해버렸습니다.\n\n".format(subject_name)
 data4 = "강의계획표를 보고도 정말 저와 맞는 방향의 수업이라고 생각했는데, 수강신청에 실패하여 못 듣기는 너무 아쉬워 교수님께 메일을 드리게 되었습니다..\n\n"
 data5 = "수강신청 변경 기간에 증원의 가능성이 있는지 여쭈고 싶습니다.. 꼭 듣고 싶었던 과목이라 간절해지네요..\n"
 data6 = "아니면 수업을 듣기 위해 제가 할 수 있는 일이 있는지 여쭙고 싶습니다..\n\n"

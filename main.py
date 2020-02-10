@@ -1,20 +1,21 @@
-'''
-id = input("아이디를 입력해주세요:")
-pw = input("비밀번호를 입력해주세요:")
-pf_mail = input("교수님 메일을 입력해주세요: ")
-subject_name = input("과목 이름을 입력해주세요(풀네임)")
-school_year = input("학년을 입력하세요:(2 => O, 2학년 => X)")
-school_num = input("학번을 입력하세요: (19 => O, 19학번 => X)")
-'''
-name = input("이름을 입력하세요:")
+f = open("info.txt", 'r', encoding='utf-8')
 
-id = "gmuffiness"
-pw = "eowjd0618!"
-pf_mail = "d"
-subject_name = 'dc'
-school_num = 'd'
-school_year = 'd'
-# name = 'd'
+lines = f.readlines()
+values = []
+for line in lines:
+    values.append(line.strip().split(":")[1])
+
+id = values[0]
+pw = values[1]
+pf_mail = values[2]
+subject_name = values[3]
+name = values[4]
+school_year = values[5]
+school_num = values[6]
+
+f.close()
+
+
 
 data1 = "교수님 안녕하십니까.\n"
 data2 = "산업정보시스템전공 {}학년에 재학중인 {}학번 {}입니다.\n\n".format(school_year,school_num,name)
@@ -25,6 +26,7 @@ data6 = "아니면 수업을 듣기 위해 제가 할 수 있는 일이 있는�
 data7 = "짧은 시간이라도 내어주셔서 정말 감사합니다! 새해 복 많이 받으시기를 기원하겠습니다!"
 
 total_data = data1 + data2 + data3 + data4 + data5+ data6 + data7
+
 
 
 from selenium import webdriver

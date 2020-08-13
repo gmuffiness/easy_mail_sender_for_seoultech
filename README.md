@@ -28,4 +28,4 @@ https://chromedriver.chromium.org/downloads
 
 5. Run '과기대.exe' and then you'll be able to use Easy Mail Sender!
 
-![대체 텍스트](https://i.ibb.co/8K494m8/ex2.png)
+<img src=https://i.ibb.co/8K494m8/ex2.png, width=550>

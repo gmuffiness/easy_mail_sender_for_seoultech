@@ -20,7 +20,7 @@ https://chromedriver.chromium.org/downloads
 
 2. Place the chromedriver into the Download folder.
 
-<img src=https://i.ibb.co/ckh4zDC/ex.png, width=300>
+<img src=https://i.ibb.co/ckh4zDC/ex.png, width=550>
 
 3. Download ZIP and open 'info.txt' text file.
 

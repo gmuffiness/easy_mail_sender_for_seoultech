@@ -4,9 +4,14 @@ Provides a simple e-mail transmission service for Seoultech students who are suf
 
 # Screenshots
 
-![대체 텍스트](https://ibb.co/QbjMjJm)
+![대체 텍스트](https://i.ibb.co/8K494m8/ex2.png)
 
 Automatically log in and write an e-mail (professor's e-mail, e-mail content) as shown in the picture above.
+
+# Dependencies
+
+* Windows 10
+* python 3.7
 
 # How to use
 
@@ -23,4 +28,4 @@ https://chromedriver.chromium.org/downloads
 
 5. Run '과기대.exe' and then you'll be able to use Easy Mail Sender!
 
-![대체 텍스트](https://ibb.co/QbjMjJm)
+![대체 텍스트](https://i.ibb.co/8K494m8/ex2.png)
